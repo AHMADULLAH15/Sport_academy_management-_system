@@ -4,7 +4,7 @@
 }
 body
 {
-    background-image: url(picture/R.jpeg);
+    /* background-image: url(picture/R.jpeg); */
     background-repeat: no-repeat;
     background-size: cover; /* Prevent background image from repeating */
     background-color: white;
