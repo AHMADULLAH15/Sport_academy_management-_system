@@ -8,27 +8,54 @@
     <script src="https://kit.fontawesome.com/1165876da6.js" crossorigin="anonymous"></script>
     <link rel="stylesheet"
     href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
+<body class="bg-green-100">
     <header>
-        <img src="picture/logo.jpg" alt="AHMAD" class="logo">
-        <h4>Sports Academy Management System</h4>
-        <ul>
-            <li>
-                <li><a href="#"><i class='bx bxs-home' ></i></a></li>
-                <li><a href="login.php"><i class='bx bx-user'></i></a></li>
-            </li>
-        </ul>
+       <div class="flex justify-normal">
+
+        <div> <img src="picture/logo.jpg" alt="AHMAD" class="logo mt-5"></div>
+         <!-- dropdown box -->
+          
+       <div class="ml-20"> <h4 class="text-[45px]"><span class="text-[#58d68d] ">S</span>ports <span class="text-[#2874a6]">A</span>cademy <Span class="text-[#8e44ad]">M</Span>anagement <span class="text-[#f39c12]">S</span>ystem</h4></div>
+       <div class="dropdown mt-[-25px] ml-[35px]">
+        <div tabindex="0" role="button" class="btn ml-1">Sports list</div>
+        <div
+          tabindex="0"
+          class="dropdown-content card card-compact bg-slate-700 text-primary-content z-[1] w-64 p-2 shadow">
+          <div class="card-body">
+            <li class="list-none"> <a href="page2.html" target="_blank">Cricket</a></li>
+          <li class="list-none"> <a href="page3_for_football.html" target="_blank">Football</a></li>
+          <li class="list-none"><a href="#">Badminton</a></li>
+          <li class="list-none"><a href="#">Hockey</a></li>
+          <li class="list-none"><a href="#">Volleyball</a></li>
+          <li class="list-none"><a href="#">Basketball</a></li>
+          <li class="list-none"> <a href="#">Cycling</a></li>
+          <li class="list-none">  <a href="#">Golf</a></li>
+          </div>
+        </div>
+      </div>
+        <div>
+            <ul class="mt-14">
+                <li>
+                    <li><a href="#"><i class='bx bxs-home' ></i></a></li>
+                    <li><a href="login.php"><i class='bx bx-user'></i></a></li>
+                </li>
+            </ul>
+        </div>
+
+       </div>
     </header>
     <br>
-    <div class="info">
-        <marquee behavior="" direction="">
+    <div class="info text-[20px] h-40">
+        <marquee behavior="" direction="" class="text-emerald-300 font-bold">
             Welcome to the Sports Academy Management System, your comprehensive platform for discovering and enrolling in sports academies across all districts. Our mission is to streamline the process of finding the best sports training facilities, making it easier for aspiring athletes and enthusiasts to access high-quality coaching and facilities.
         </marquee><br>
         What We Offer!! <br>
         Our Sports Academy Management System provides a centralized database of sports academies, enabling users to view and compare various options based on location, sport, and other key criteria. Whether you're looking for a cricket academy in Chittagong, a football training center in Dhaka, or a badminton academy in Sylhet, our platform covers it all.
-    </div><br><br><br><br><br><br><br>
-    <div class="box1">
+    </div><br><br><br><br>
+    <!-- <div class="box1">
         <div class="cricket">
             <a href="page2.html" target="_blank">Cricket</a>
         </div>
@@ -57,7 +84,29 @@
         <div class="golf">
             <a href="#">Golf</a>
         </div>
-    </div>
+    </div> -->
+    <!-- Image -->
+     <div>
+        <!-- top -->
+         <div class="flex justify-center gap-1">
+            <div class="h-[293px] w-3/12 rounded-lg shadow-xl"><img class="h-full w-full rounded-lg" src="picture/cricket.webp" alt=""></div>
+            <div class="h-2/6 w-5/12 rounded-lg shadow-xl"> <img class="h-full w-full rounded-lg" src="picture/cycle.webp" alt=""></div>
+            <div class="h-[293px] w-3/12 rounded-lg shadow-xl"><img class="h-full w-full rounded-lg" src="picture/hockey.jpg" alt=""></div>
+         </div>
+         <!-- middle -->
+          <div class="flex justify-center gap-1 mt-4">
+            <div class="h-[293px] w-3/12 rounded-lg shadow-xl"><img class="h-full w-full rounded-lg" src="picture/cock.webp" alt=""></div>
+            <div class="h-[293px] w-3/12 rounded-lg shadow-xl"> <img class="h-full w-full rounded-lg" src="picture/sports.webp" alt=""></div>
+            <div class="h-[293px] w-5/12 rounded-lg shadow-xl"><img class="h-full w-full rounded-lg" src="picture/wow.webp" alt=""></div>
+
+          </div>
+          <!-- bottom -->
+           <div class="flex justify-center gap-1 mt-4">
+            <div class="h-[293px] w-3/12 rounded-lg shadow-xl"><img class="h-full w-full rounded-lg" src="picture/swimming.jpeg" alt=""></div>
+            <div class="h-[293px] w-5/12 rounded-lg shadow-xl"><img class="h-full w-full rounded-lg" src="picture/running.jpeg" alt=""></div>
+            <div class="h-[293px] w-3/12 rounded-lg shadow-xl"> <img class="h-full w-full rounded-lg" src="picture/man-football.webp" alt=""></div>
+           </div>
+     </div>
     <br><br><br><br><br><br><br>
 </body>
 <footer>
@@ -82,7 +131,7 @@
         </div>
     </div>
     <div class="footer-bottom">
-        &copy; 2024  Sport Academy Management System.com | Designed by [Ahmadullah]
+        &copy; 2024  Sport Academy Management System.com | Designed by [programmar]
     </div>
 </footer>
 
