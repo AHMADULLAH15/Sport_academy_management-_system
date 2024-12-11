@@ -4,27 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Football Academy</title>
-    <link rel="stylesheet" href="page3_for_football.css">
+    <link rel="stylesheet" href="page2.css">
     <script src="https://kit.fontawesome.com/1165876da6.js" crossorigin="anonymous"></script>
     <link rel="stylesheet"
     href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
+<body class="bg-slate-600">
     <header>
-        <img src="picture/logo.jpg" alt="AHMAD" class="logo">
+        <!-- <img src="picture/logo.jpg" alt="AHMAD" class="logo">
         <h4>Sport Academy Management System</h4>
         <ul>
             <li>
                 <li><a href="index.html"><i class='bx bxs-home' ></i></a></li>
                 <li><a href="#"><i class='bx bx-user'></i></a></li>
             </li>
-        </ul>
+        </ul> -->
+        <div class="flex justify-normal bg-black">
+
+            <div> <img src="picture/logo.jpg" alt="AHMAD" class="logo mt-5"></div>
+             <!-- dropdown box -->
+              
+             <div class="nav m-auto"><div class="ml-20"> <h4 class="text-[45px]"><span class="text-[#58d68d] ">S</span>ports <span class="text-[#2874a6]">A</span>cademy <Span class="text-[#8e44ad]">M</Span>anagement <span class="text-[#f39c12]">S</span>ystem</h4></div></div>
+           <div class="dropdown mt-[-25px] ml-[35px]">
+            <div tabindex="0" role="button" class="btn ml-1">Divison list</div>
+            <div
+              tabindex="0"
+              class="dropdown-content card card-compact bg-slate-700 text-primary-content z-[1] w-64 p-2 shadow">
+              <div class="card-body">
+                  <li class="list-none"> <a href="football_academy_list_ctg.php" target="_blank">Chattogram</a></li>
+                <li class="list-none"> <a href="#" target="_blank">Dhaka</a></li>
+              <li class="list-none"><a href="#">Rajshahi</a></li>
+              <li class="list-none"><a href="#">Khulna</a></li>
+              <li class="list-none"><a href="#">Barishal</a></li>
+              <li class="list-none"><a href="#">sylhet</a></li>
+              <li class="list-none"> <a href="#">Rongpur</a></li>
+              <li class="list-none">  <a href="#">Mymensingh</a></li>
+              </div>
+            </div>
+          </div>
+            <div>
+                <ul class="mt-14">
+                    <li>
+                        <li><a href="#"><i class='bx bxs-home' ></i></a></li>
+                        <li><a href="login.php"><i class='bx bx-user'></i></a></li>
+                    </li>
+                </ul>
+            </div>
+    
+           </div>
     </header>
     <br><br>
-    <h1 class="p">Please Select your District</h1> <br><br><br><br>
-    <div class="box1">
+    <div class="mt-20"><h1 class="p pb-16">Supporting Football Academic</h1></div> <br><br><br><br>
+    <!-- <div class="box1">
         <div class="cricket">
-            <a href="football_academy_list_ctg.php">Chittagong</a>
+            <a href="Academy_list_ctg.php">Chittagong</a>
         </div>
         <div class="football">
             <a href="#">Dhaka</a>
@@ -51,11 +86,21 @@
         <div class="golf">
             <a href="#">Pabna</a>
         </div>
-    </div>
-    <br><br><br>
-</body>
-<footer>
-    <div class="footer-content">
+    </div> -->
+    
+    <div class="box"><img src="picture/pic9.jpg" alt="">
+    <img src="picture/pic10.jpeg" alt="">
+    <img src="picture/pic11.jpeg" alt="">
+    <img src="picture/pic12.jpeg" alt="">
+</div><br>
+<div class="box">
+    <img src="picture/pic13.jpeg" alt="">
+    <img src="picture/pic14.jpeg" alt="">
+    <img src="picture/pic15.jpg" alt="">
+    <img src="picture/pic16.webp" alt="">
+</div>
+<footer class="">
+    <!-- <div class="footer-content">
         <div class="footer-section about">
             <h3>About Us</h3>
             <p>What We Offer <br>
@@ -74,9 +119,30 @@
                 <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
             </ul>
         </div>
-    </div>
+    </div> -->
+    <!-- <div class="mt-[-40px]"> -->
+        <!-- top -->
+         <!-- <div class="flex justify-center gap-1">
+            <div class="h-[293px] w-3/12 rounded-lg shadow-xl"><iframe width="560" height="315" src="https://www.youtube.com/embed/9rErc5wMqng?si=GOVpsXoMpbVWoQjL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+            <div class="h-2/6 w-5/12 rounded-lg shadow-xl"> <iframe class="w-full rounded-lg" height="290" src="https://www.youtube.com/embed/rkLCJg8n44k?si=4wO0nDYo1WzwLLsF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+            <div class="h-[293px] w-3/12 rounded-lg shadow-xl"><iframe class="h-full w-full rounded-lg" src="https://www.youtube.com/embed/veLjZK7J0Bc?si=OPFXuu9M2xKoJSFi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+         </div> -->
+         <!-- middle -->
+          <!-- <div class="flex justify-center gap-1 mt-4">
+            <div class="h-[293px] w-3/12 rounded-lg shadow-xl"><iframe class="h-full w-full rounded-lg" src="https://www.youtube.com/embed/HEHggOOds1w?si=M1c00CZCQdQLozgq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+            <div class="h-[293px] w-3/12 rounded-lg shadow-xl"> <iframe class="h-full w-full rounded-lg" src="https://www.youtube.com/embed/gAge1yZ8-3I?si=W7ef4neRtsJP5g6j" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+            <div class="h-[293px] w-5/12 rounded-lg shadow-xl"><iframe class="h-full w-full rounded-lg" src="https://www.youtube.com/embed/64Ea4uOZjBA?si=-6suFi4Ec9Qr4R9D" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+
+          </div> -->
+          <!-- bottom -->
+           <!-- <div class="flex justify-center gap-1 mt-4">
+            <div class="h-[293px] w-3/12 rounded-lg shadow-xl"><iframe class="h-full w-full rounded-lg" src="https://www.youtube.com/embed/ahX9ygzJo2U?si=OVJrlPSqXE5lHHl0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+            <div class="h-[293px] w-5/12 rounded-lg shadow-xl"><iframe class="h-full w-full rounded-lg" src="https://www.youtube.com/embed/-RMKDu1h0h8?si=yv0CNdZRLnWqaNJJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+            <div class="h-[293px] w-3/12 rounded-lg shadow-xl"> <iframe class="h-full w-full rounded-lg" src="https://www.youtube.com/embed/tDd5xxJQsEo?si=Z8VR3RKNCaU19YJL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+           </div> -->
+     <!-- </div> -->
     <div class="footer-bottom">
-        &copy; 2024  Sport Academy Management System.com | Designed by [Ahmadullah]
+        &copy; 2024  Sport Academy Management System.com | Designed by [Programmar]
     </div>
 </footer>
 </html>
