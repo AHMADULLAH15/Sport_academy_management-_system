@@ -21,7 +21,7 @@
         <img src="picture/logo.jpg" alt="AHMAD" class="logo">
         <h4>Admin Dashboard</h4>
         <ul>
-            <li><a href="index.php"><i class='bx bxs-home'></i></a></li>
+            <li><a href="index.html"><i class='bx bxs-home'></i></a></li>
             <li><a href="login.php"><i class='bx bx-user'></i></a></li>
             <li><button id="toggle-sidebar" class="toggle-sidebar"><i class='bx bx-menu'></i></button></li>
         </ul>

@@ -16,7 +16,7 @@
         <img src="picture/logo.jpg" alt="AHMAD" class="logo">
         <h4>Sports Academy Management System</h4>
         <ul>
-            <li><a href="#"><i class='bx bxs-home'></i></a></li>
+            <li><a href="index.html"><i class='bx bxs-home'></i></a></li>
             <li><a href="#"><i class='bx bx-user'></i></a></li>
         </ul>
     </header>
